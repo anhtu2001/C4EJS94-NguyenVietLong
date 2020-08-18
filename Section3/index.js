@@ -22,5 +22,3 @@ console.log(menu);
 menu[1] = 'Mien ngu sac';
 console.log(menu[1]);
 console.log(menu);
-
-console.log(menu[2]);
