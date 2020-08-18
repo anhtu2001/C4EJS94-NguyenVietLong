@@ -1,0 +1,12 @@
+console.log("Ex1:");
+console.log("1. What is var in js ?");
+console.log("var is declares variables that are accessible within the function or outside the function, globally.");
+console.log("2. What is const in js ?");
+console.log("const is declares variables that can't change and have accessible like let");
+console.log("3. What are different between let and var?");
+console.log("var have accessible larger than let");
+console.log("4. What are different between let and const?");
+console.log("`const` is a signal that the identifier won’t be reassigned.");
+console.log("`let` is a signal that the variable may be reassigned.");
+console.log("What to use in what cases?");
+console.log("declares global variables use var. \ndeclare local variable use let. \ndeclare constant variable use const.");
