@@ -1,0 +1,22 @@
+console.log('Ex1');
+//https://dmitripavlutin.com/swap-variables-javascript/
+console.log('We have 4 ways to swap variables in JavaScript');
+console.log('1. Destructuring assignment');
+console.log('2. Temporary variable');
+console.log('3. Addition and difference');
+console.log('4. Bitwise XOR operator');
+console.log('Example:');
+console.log('Ex1: ');
+let a = 5, b = 6;
+[a, b] = [b, a];
+console.log(a);
+console.log(b);
+console.log('Ex2: ');
+let c = 1;
+let d = 2;
+let temp;
+temp = c;
+c = d;
+d = temp;
+console.log(c);
+console.log(d);
