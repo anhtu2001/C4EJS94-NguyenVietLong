@@ -5,7 +5,7 @@ let colors = ["red", "gray", "blue", "purple", "cyan"];
 while(i<colors.length){
  color(colors[i]);
   for(let j = 0;j < 4;j ++){
-    fd(fsize);
+    fd(fsize+=20);
     rt(90);
   }
   i++;
