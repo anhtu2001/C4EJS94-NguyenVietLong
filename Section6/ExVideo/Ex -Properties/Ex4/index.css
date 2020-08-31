@@ -1,0 +1,15 @@
+div {
+    height: 300px;
+    width: 800px;
+    background-image: url(https://pbs.twimg.com/profile_images/988272404915875840/lE7ZkrO-_400x400.jpg); 
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+#first {
+    background-size: contain;
+}
+
+#second {
+    background-size: cover;
+}
