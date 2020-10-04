@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <div id="section1">
+        <div>
+            <h1 class="h1-title1">Vì sao nên chọn chúng tôi</h1>
+        </div>
+        <!--Thẻ Login-->
+        <div class="main">
+            <div id="cardloginforuser">
+                <div class="card-title">
+                    <h3><i class="fa fa-user-circle-o" aria-hidden="true"></i> User <span id="action_title">Login</span>
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="card-body-top">
+                        <button id="login" class="btn" name="Đăng nhập" onclick="login()">Đăng nhập</button>
+                        <button id="register" class="btn" name="Đăng ký" onclick="register()">Đăng ký</button>
+                        <div id="pointer-btn"></div>
+                    </div>
+                    <div class="card-body-login">
+                        <form id="login-form">
+                            <input class="input-form" type="Email" placeholder="Nhập email của bạn" required><br><br>
+                            <input class="input-form" type="Mật khẩu" placeholder="Nhập mật khẩu" required><br><br><br>
+                            <input class="submit-form" type="submit" value="Đăng nhập">
+                        </form>
+                        <form id="register-form">
+                            <input class="input-form" type="name" placeholder="Nhập tên tài khoản" required><br><br>
+                            <input class="input-form" type="email" placeholder="Nhập email của bạn" required><br><br>
+                            <input class="input-form" type="password" placeholder="Nhập mật khẩu của bạn"
+                                required><br><br>
+                            <input class="submit-form" type="submit" value="Đăng ký">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg1"></div>
+        <script src="doc.js"></script>
+        <!------------------>
+    </div>
+    <div id="section2">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="picture1.jpg" class="d-block w-100" alt="Gymer1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>DAVIL</h5>
+                        <p>Huấn luyện viên đã có 4 năm kinh nghiệm về Gym.</p>
+                        <button class="Btn_hlv" name="Đăng kí_1">Đăng kí giáo viên</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="picture2.jpg" class="d-block w-100" alt="Gymer2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>EMILIA</h5>
+                        <p>Huấn luyện viên đã từng nhận giải FITNESS GLOBAL và có 5 năm kinh nghiệm.</p>
+                        <button class="Btn_hlv" name="Đăng kí_2">Đăng kí giáo viên</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="picture3.jpg" class="d-block w-100" alt="Gymer3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>REM</h5>
+                        <p>Có kinh nhiệm về Gym và cả Yoga và có 8 năm kinh nghiệm trong nghề.</p>
+                        <button class="Btn_hlv" name="Đăng kí_3">Đăng kí giáo viên</button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="section3">
+        <h1> NỘI DUNG LIÊN HỆ </h1>
+    </div>
+    <div id="section4">
+        <h1> NỘI DUNG BMI </h1>
+    </div>
+    <section id="map-container">
+        <div id="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14896.982274935408!2d105.81639646292523!3d21.022857995943426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9112347ed343cc56!2zTWluZFggY8ahIHPhu58gVGjDoG5oIEPDtG5nIChUZWNoa2lkcyDEkeG7lWkgdMOqbik!5e0!3m2!1sen!2s!4v1570782275500!5m2!1sen!2s "
+                width="100% " height="450 " frameborder="0 " style="border:0; " allowfullscreen=" "></iframe></div>
+    </section>
+
+    <div id="about_u" class="about">
+        <div class="content">
+            <h2>LIÊN HỆ</h2>
+        </div>
+        <div class="container mg">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h3>Thông Tin Liên Hệ</h3>
+                    <div>
+                        <span>
+                            <i aria-hidden="true" class="fa fa-map fa-1x"></i>
+                        </span>
+                        <span> Đại Học FPT-Hòa Lạc</span>
+                    </div>
+                    <div>
+                        <span>
+                            <i aria-hidden="true" class="fa fa-map fa-1x"></i>
+                        </span>
+                        <span> Mind-X Thành Công</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <h3>FeedBack</h3>
+                    <input type="text" placeholder="Information" class="fb" id="feed">
+                    <input type="submit" placeholder="Information" class="fb1" id="add-btn" onclick="addItem()"
+                        style="font-size: 0.7em;">
+                </div>
+            </div>
+        </div>
+
+            <div class=" footer">
+                <a class="btn_info" href="#section1">Trang chủ</a>
+                <a class="btn_info" href="#section2">Khoá Học</a>
+                <a class="btn_info" href="#section3">BMI</a>
+                <a class="btn_info" href="#section4">Liên Hệ</a>
+                <a class="btn_info" href="#map">Địa Chỉ</a>
+            </div>
+
+            <div class="BMIDoctor_info text-center">
+                <h5>BMI Doctor Company</h5>
+                <span style="color:wheat">Admin:Mind-X</span>
+            </div>
+            <div class="text-center">
+                <p class="marg5" style="font-size: 12px; margin: 8px;">© 2019 Copyright Micro-Star INT'L CO., LTD. All rights reserved.</p>
+            </div>
+    </div>
+
+    <div class="scroll-down"></div>
+    <nav>
+        <ul>
+            <li>
+                <img src="logo.png" id="logo" style="height: 35px;">
+            </li>
+            <li><a class="sc1" href="#section1">Trang chủ</a></li>
+            <li><a class="sc2" href="#section2">Khoá Học</a></li>
+            <li><a class="sc3" href="#section3">BMI</a></li>
+            <li><a class="sc4" href="#section4">Liên Hệ</a></li>
+            <li><a class="sc5" href="#map">Địa Chỉ</a></li>
+            <button onclick="ClickAccount()" class="btn btn-danger" id="section5">Tài Khoản</button>
+        </ul>
+    </nav>
+</body>
+
+</html>
